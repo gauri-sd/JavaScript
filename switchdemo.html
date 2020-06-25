@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<script>
+			function switchCaseDemo()
+			{
+				var grade=document.getElementById("demo").value;
+				var result;
+				switch(grade)
+				{
+					case 'A':
+					result="A Grade";
+					break;
+					
+					case 'B':
+					result="B Grade";
+					break;
+					
+					case 'C':
+					result="C grade";
+					break;
+					
+					default:
+					result="No Grade";
+				}
+				document.write(result);
+			}
+		</script>
+	</head>
+	<body>
+		Enter Grade: <input id=demo>
+		<input type="button" onclick="switchCaseDemo()" value="Click Me">
+		</button>
+	</body>
+</html>
